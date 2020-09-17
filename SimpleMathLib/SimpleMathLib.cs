@@ -30,7 +30,7 @@ namespace SimpleMathLib
         }
         
         // Subtract two doubles
-        public int Subtract(double a, double b)
+        public double Subtract(double a, double b)
         {
             if (a < 1 )
                 return 0;
