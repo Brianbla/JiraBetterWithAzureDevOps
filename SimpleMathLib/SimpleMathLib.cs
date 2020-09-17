@@ -28,6 +28,14 @@ namespace SimpleMathLib
                 return 0;
             return (a - b);
         }
+        
+        // Subtract two doubles
+        public int Subtract(double a, double b)
+        {
+            if (a < 1 )
+                return 0;
+            return (a - b);
+        }
 
         // Multiply two numbers
         public int Multiply(int a, int b)
