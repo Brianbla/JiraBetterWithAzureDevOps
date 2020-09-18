@@ -43,6 +43,12 @@ namespace SimpleMathLib
             return (a * b);
         }
 
+        // Multiply two double
+        public double Multiply(double a, double b)
+        {
+            return (a * b);
+        }
+        
         public int Divide(int a, int b)
         {
             return (a / b);
